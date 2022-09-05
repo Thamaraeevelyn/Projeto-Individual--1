@@ -1,0 +1,103 @@
+  body {
+    background-image: url("imagem de fundo.jpg");
+} 
+
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: brown;
+    padding: 80px;
+}
+
+h1{
+    color: blanchedalmond;    
+    text-align: center; 
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+
+nav{
+    padding-left: 5px;
+}
+
+.link{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.cont-1{display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 100px;
+        flex-wrap: wrap;
+        gap: 15px;
+}
+
+.cont-2{margin: 100px;
+        justify-content: center;
+        color: #fff
+        
+
+}
+
+.foto{  width: 80px;
+        border-radius: 80px;
+
+}
+
+.sobre-mim{ font-size: 1.5rem;
+
+}
+
+ul{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-around;
+        list-style: none;
+        flex-wrap: wrap;
+        gap: 30px;
+
+}
+
+li{ background-color: darkviolet;
+    padding: 10px 5px;
+    border-radius: 12px;
+}
+
+li:hover{
+    padding: 20px 10px;
+}
+
+
+.item {
+    color: gainsboro;
+}
+
+footer{
+    background-color: blueviolet;
+    margin-top: 200px;
+    padding: 10px 0;
+
+}
+
+.footer{
+    color: #fff;
+    text-align: center;
+} 
+
+@media(max-width: 580px) {
+    .link{
+        font-size: 1rem,
+    }
+}
